@@ -1,0 +1,166 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+button:hover{
+    cursor: pointer;
+    
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+.sect1{
+    
+    width: 100%;
+    background-image: url("ice-cream-5928048_1920.jpg");
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 15vw;
+   
+}
+.h1{
+    font-size: 3rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight:bolder;
+}
+.p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    font-size: 1.1rem;
+}
+
+#navbar{
+    height: 75px;
+    background-color: rgb(58, 57, 57) ;
+    color: white;
+    display: flex;
+   
+       
+    
+}
+
+#navbar img{
+    height: 60px;
+    margin: 10px;
+    display: flex;
+}
+#navbar ul {
+    
+    list-style: none;   
+    
+    display:flex;
+    position: absolute;
+    top: 4.5vh;
+    font-size: 1.2rem;
+    margin-left: 7vw;
+    
+}
+#navbar ul li a{
+    padding: 0.5vh 2.5vh ;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+       
+}
+.sect1 a button{
+    padding: 10px;
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+.sect1 a button:hover{
+    background-color: rgb(255, 132, 110);
+    font-size: 18px;
+    border-radius: 45px;
+
+}
+
+#navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+.box{
+    height: 80vh;
+    width: 22vw;
+    border: 1.5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 12vh;
+    margin-left: 8vw;
+    margin-bottom: 16vh;
+    font-size: 1rem;
+    background-color: rgb(231, 204, 204);
+
+}
+.box p {
+    margin: 20px;   
+
+}
+.box a button{
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: rgb(0, 255, 234);
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.box a button:hover{
+    background-color: tomato;
+    color: white;
+    
+    
+
+}
+.img{
+    display: block;
+   height: 250px;
+   width: 270px;
+   margin-left: 15px;
+   margin-top: 10px;
+   border-radius: 5px;
+
+}
+
+footer{
+    
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(139, 139, 139);
+    font-size: 20px;
+}
+@media screen and (max-width: 1353px) {
+    .box{
+        width: 80vw;
+        height: 70vh;
+    }
+    
+}
+@media screen and (max-width: 744px){
+    .box{
+        margin-top: 10vh;
+        margin-left: 30vw;
+        width: 40vw;
+        height: 80vh;       
+    }
+}
+
+@media screen and (max-width : 731px) {
+    .box{
+        width: 100%;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .sect1 {
+        
+    }
+}
+
+
